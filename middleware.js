@@ -1,3 +1,4 @@
+"use strict";
 let middleware = {
   requireAuthentication: (req, res, next)=>{
     console.log('Private route hit');
